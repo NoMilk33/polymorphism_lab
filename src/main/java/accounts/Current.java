@@ -1,6 +1,6 @@
 package accounts;
 
-public class Current extends Account{
+public class Current extends Account {
 
     private boolean empty;
 
@@ -9,4 +9,15 @@ public class Current extends Account{
         this.empty = empty;
     }
 
+    public void depositCash(){
+
+    }
+
+    public void withdrawCash(){
+
+    }
+
+    public void payInterest(){
+
+    }
 }

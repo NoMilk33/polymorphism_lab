@@ -4,6 +4,8 @@ public class Investment extends Account{
 
     private float roi;
 
-    public
+    public void weeklyReport(String){
+
+    }
 
 }

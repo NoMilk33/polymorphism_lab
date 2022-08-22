@@ -7,7 +7,8 @@ public abstract class Account {
     private float balance;
 
 //    constructor
-    public Account (String name, int id, float balance){
+
+    public Account(String name, int id, float balance){
         this.name = name;
         this.id = id;
         this.balance = balance;
@@ -40,6 +41,8 @@ public abstract class Account {
     public void setBalance(float balance){
         this.balance = balance;
     }
+
+//    methods
 
     public void depositCash(){
         balance =+ ();
