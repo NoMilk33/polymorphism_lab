@@ -9,6 +9,9 @@ public class Current extends Account {
         this.empty = empty;
     }
 
+    public String payInterest(){
+        return "You've been paid interest";
+    }
 
 }
 

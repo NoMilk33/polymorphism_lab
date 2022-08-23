@@ -14,7 +14,10 @@ public abstract class Account {
         this.balance = balance;
     }
 
-//    getters
+    public Account(String name) {
+    }
+
+    //    getters
     public String getName(){
         return name;
     }
