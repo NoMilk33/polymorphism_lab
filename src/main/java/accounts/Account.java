@@ -39,12 +39,14 @@ public abstract class Account {
     public void setBalance(int balance) {
         this.balance = balance;
     }
-
+    @Override //creating
     public String depositCash(){ //if void method, what changes
-        return "Thanks for paying in a deposit";
+        return "Thanks for paying in a deposit!";
     }
 
-    public String withdrawCash(){
-        return "Your withdrawal will be with you soon";
+    public String depositCash(String message){
+        return String.format("We heard you! You want to %s.", message); //"Deposit ten pounds"
     }
+
+    public abstract String withdrawCash(); // created abstract method, but need to go over this again
 }

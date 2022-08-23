@@ -38,7 +38,7 @@ public class BankingArm {
 //    methods
 
     public void addAccount(Account account) {
-        this.accounts.put(Account, accountAge);
+        this.accounts.put(Account);
     }
 
     public int countAccounts(){
